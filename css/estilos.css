@@ -58,6 +58,9 @@ body{
 	font-size: 1.3rem;
 	margin-left: 70px;
 }
+.nav:hover{
+	text-decoration: underline;
+}
 /*BANNER*/
 .banner{
 	margin-top: 40px;
@@ -125,6 +128,7 @@ body{
 	align-items: center;
 	background-color: black;
 	border-radius: 5px;
+	transition: all 250ms;
 }
 .pd p{
 	margin-top: 5px;
@@ -132,6 +136,11 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	color: white;
 }
+.pd:hover{
+	transform: scale(1.15);
+	box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+}
+
 /*FOOTER*/
 #footer{
 	width: 100%;
